@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/game_start1"
+    tools:context="fall18_207project.GameCenter.Game2048StartActivity">
+
+    <TextView
+        android:id="@+id/Hi_User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_toLeftOf="@+id/logOutBtn"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Welcome to Game2048!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#d61295be"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/GameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="80dp"
+        android:gravity="center"
+        android:text="Try to sum up the same number and get 2048"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:textColor="#94c72828"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <!--<Button-->
+        <!--android:id="@+id/StartButton"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_below="@+id/GameText"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:background="@drawable/button_style"-->
+        <!--android:text="Load From AutoSave" />-->
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/GameText"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_style4"
+        android:text="New Game" />
+
+    <Button
+        android:id="@+id/loadGameButton"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/StartButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_style4"
+        android:text="Load Game" />
+
+    <!--<Button-->
+        <!--android:id="@+id/LoadButton"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_below="@+id/GameText"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_marginEnd="17dp"-->
+        <!--android:layout_toStartOf="@+id/StartButton"-->
+        <!--android:background="@drawable/button_style"-->
+        <!--android:text="Load  Game" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/SaveButton"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_below="@+id/GameText"-->
+        <!--android:layout_marginStart="17dp"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_toEndOf="@+id/StartButton"-->
+        <!--android:background="@drawable/button_style"-->
+        <!--android:text="remove this" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/Button4"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_below="@+id/SaveButton"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="25dp"-->
+
+        <!--android:background="@drawable/button_style"-->
+        <!--android:text="New Game" />-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="611dp"
+        android:background="@drawable/border_style"
+        android:text="  To Game Center  " />
+
+    <Button
+        android:id="@+id/logOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:background="#00ffffff"
+        android:text="log out"
+        android:textColor="@android:color/holo_blue_dark" />
+
+</RelativeLayout>

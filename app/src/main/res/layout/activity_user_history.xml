@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="@drawable/user_history"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    tools:context=".UserHistoryActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/navigation"
+        android:orientation="vertical"
+        tools:context="fall18_207project.GameCenter.UserHistoryActivity">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/windowTitleSize"
+            android:background="#8928a6b4"
+            android:fontFamily="sans-serif"
+            android:text="User History"
+            android:textAlignment="center"
+            android:textColor="#a1444d35"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:textColor="#c0ce42" />
+
+        <ListView
+            android:id="@+id/historyView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="1dp"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#b22893b4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

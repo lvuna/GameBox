@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fall18_207project.GameCenter">
+
+    <application
+        android:allowBackup="true"
+        android:icon = "@drawable/ic_launcher"
+        android:label = "Game Box!"
+        android:supportsRtl="true"
+        android:theme="@style/launcherStyle">
+        <activity android:name=".LauncherActivity"
+            android:icon = "@drawable/ic_launcher"
+            android:label = "Game Box!"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".GameCentreActivity" />
+         <activity android:name=".GlobalScoreBoardActivity" />
+         <activity android:name=".UserHistoryActivity" />
+        <activity android:name=".MatchingCardsGameActivity" />
+        <activity android:name=".MatchingCardStartActivity" />
+        <activity android:name=".SlidingTileStartingActivity" />
+        <activity android:name=".SlidingTileGameActivity" />
+        <activity android:name=".GameFinishActivity" />
+        <activity android:name=".Game2048StartActivity" />
+        <activity android:name=".Game2048Activity" />
+        <activity android:name=".SavedGamesActivity"></activity>
+    </application>
+
+</manifest>

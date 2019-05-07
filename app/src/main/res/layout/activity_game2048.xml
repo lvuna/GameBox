@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/game_start1"
+    tools:context="fall18_207project.GameCenter.Game2048Activity">
+
+    <fall18_207project.GameCenter.GestureDetectGridView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        tools:context="fall18_207project.GameCenter.Game2048Activity">
+
+
+    </fall18_207project.GameCenter.GestureDetectGridView>
+
+
+    <TextView
+        android:id="@+id/time_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="45dp"
+        android:layout_toStartOf="@+id/UndoButton"
+        android:text="Time:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#f07008" />
+
+    <TextView
+        android:id="@+id/steps_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="37dp"
+        android:layout_toStartOf="@+id/time_id"
+        android:text="Steps:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#f07008" />
+
+    <Button
+        android:id="@+id/UndoButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/undo_button" />
+    <!--android:background="@drawable/border_style"-->
+    <!--android:text="Undo"-->
+        <!--/>-->
+
+    <Button
+        android:id="@+id/saveGameButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/save_button"
+         />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@+id/steps_id"
+        android:background="@drawable/reset_button"/>
+</RelativeLayout>

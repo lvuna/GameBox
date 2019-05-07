@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/save_games"
+    android:id="@+id/container"
+    tools:context=".SavedGamesActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/navigation"
+        android:orientation="vertical"
+        tools:context="fall18_207project.GameCenter.UserHistoryActivity">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/windowTitleSize"
+            android:background="#9aeca0d4"
+            android:fontFamily="sans-serif"
+            android:text="Saved Games"
+            android:textAlignment="center"
+            android:textColor="#a1444d35"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+
+        <ListView
+            android:id="@+id/historyView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="1dp"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

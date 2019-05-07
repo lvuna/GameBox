@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/login"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/EmailLogin"
+        android:layout_width="165sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150sp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="none"
+        tools:layout_editor_absoluteX="68sp"
+        tools:layout_editor_absoluteY="110sp"
+        android:scrollbars="horizontal" />
+
+    <EditText
+        android:id="@+id/passwordtext"
+        android:layout_width="165sp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/EmailLogin"
+        android:layout_marginTop="80sp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="68sp"
+        tools:layout_editor_absoluteY="184sp"
+        android:scrollbars="horizontal" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="110sp"
+        android:layout_height="45sp"
+        android:layout_alignTop="@+id/passwordtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        android:background="@drawable/button_style4"
+        android:text="Log in"
+        tools:layout_editor_absoluteX="38sp"
+        tools:layout_editor_absoluteY="275sp" />
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="110sp"
+        android:layout_height="45sp"
+        android:layout_alignTop="@+id/loginBtn"
+        android:layout_marginTop="80sp"
+        android:layout_centerHorizontal="true"
+        android:text="Sign up"
+        android:background="@drawable/button_style4"/>
+
+</RelativeLayout>
+

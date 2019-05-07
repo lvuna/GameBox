@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "924378317581",
+    "firebase_url": "https://gamecenter-ce222.firebaseio.com",
+    "project_id": "gamecenter-ce222",
+    "storage_bucket": "gamecenter-ce222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924378317581:android:b81555378372c6f2",
+        "android_client_info": {
+          "package_name": "fall18_207project.GameCenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924378317581-uttfv92jki7gvsqc10cuo5slag0tbelc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX9ywMGtg8ooEn-Q2-vv-C3fhv5zzPvk0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

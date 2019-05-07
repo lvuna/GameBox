@@ -9,11 +9,29 @@ due to time constraint.
 ***
 
 ## GameBox
-![GAME BOX](app/src/main/res/drawable/startimage.png) ![User interface](showcase_image/Central.png){:height="300px" width="200px"}
+<img src="app/src/main/res/drawable/startimage.png" height="500" width="300">
+
 This is a light weight app contains several small games, support user feature, so different users can keep track of their
 own progress separately by signing in.
 
+<img src="showcase_image/Central.png" height="600" width="300">
 
+This is the Central User interface.
+
+<img src="showcase_image/game2048.png" height="600" width="300">
+
+This is one of the games we created, which is the famous 2048.
+
+<img src="showcase_image/scoreboard.png" height="600" width="300">
+
+This is the scoreboard feature.
+
+***
+## Setup
+1. Clone the project to your designated repository .
+2. Open Android Studio and import the project.
+3. Build the project with default gradle.
+4. Choose API27, Android SDK 8 and run the emulator.
 ***
 ## Problem
 * Currently no database was introduced, storing data depends on serialization => Only local data is really available.

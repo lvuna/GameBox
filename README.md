@@ -9,7 +9,7 @@ due to time constraint.
 ***
 
 ## GameBox
-![GAME BOX](app/src/main/res/drawable/startimage.png) ![User interface](showcase_image/Central.png | height=100)
+![GAME BOX](app/src/main/res/drawable/startimage.png) ![User interface](showcase_image/Central.png)
 
 This is a light weight app contains several small games, support user feature, so different users can keep track of their
 own progress separately by signing in.
